@@ -1,2 +1,2 @@
 # Descuentos
-Página para calcular descuentos
+Página para calcular aumentos y descuentos

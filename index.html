@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--GOOGLE FONTS / RALEWAY/ SOURCE SANS PRO 300-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <h1 class="menu-title">Calculadora de aumentos y descuentos</h1>
+            <div class="menu-items">
+                <button class="button-active" id="increases-link">Aumentos</button>
+                <button id="discounts-link">Descuentos</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="calc-container">
+            <div class="calc-item">
+                <p>Cantidad</p>
+                <input type="number" id="number">
+            </div>
+            <div class="calc-item">
+                <p>Porcentaje (%)</p>
+                <input type="number" id="percentage">
+            </div>
+            <button class="button-block" id="increase">Calcular Aumento</button>
+            <button id="discount">Calcular Descuento</button>
+        </div>
+        <div class="result-container">
+            <h2 id="result">Resultado: </h2>
+        </div>
+    </main>
+    <script src="./js/app.js"></script>
+    <script src="./js/calcs.js"></script>
+</body>
+</html>

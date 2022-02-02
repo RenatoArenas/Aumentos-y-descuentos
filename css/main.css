@@ -109,7 +109,10 @@ main {
     cursor: pointer;
     transition: 0.3s;
 }
-.calc-container .button-block {
+.calc-item .input {
+    display: none;
+}
+.calc-container .calc-item .input-block {
     display: block;
 }
 .result-container h2 {

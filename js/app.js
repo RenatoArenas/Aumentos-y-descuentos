@@ -21,12 +21,6 @@ function increasesBtn() {
     discount_num.classList.remove("input-block");
     increase_per.classList.add("input-block");
     discount_per.classList.remove("input-block");
-    if (increase_num.value == 0) {    
-        increase_num.value = "";
-    }
-    if (increase_per.value == 0) {
-        increase_per.value = "";
-    }
 }
 
 function discountsBtn() {
@@ -36,10 +30,4 @@ function discountsBtn() {
     discount_num.classList.add("input-block");
     increase_per.classList.remove("input-block");
     discount_per.classList.add("input-block");
-    if (discount_num.value == 0) {
-        discount_num.value = "";
-    }
-    if (discount_per.value == 0) {
-        discount_per.value = "";
-    }
 }
